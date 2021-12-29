@@ -1,0 +1,104 @@
+* {
+    margin:0;
+    padding:0; 
+}
+.conbody{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 50px auto;
+
+}
+.contact-box {
+    background: #fff;
+    display: flex;
+
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background-color:whitesmoke;
+    color: chocolate;
+}
+
+
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background-color: tomato;
+    color: floralwhite;
+ 
+}
+.h1con {
+margin-bottom: 10px;
+font-size: 42px;
+color:slateblue;
+}
+.container .pcon {
+    margin-bottom: 40px;
+}
+.input-row{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.input-row .input-group {
+    flex-basis: 45%;
+}
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom:5px;
+}
+.inputcon {
+    padding:10px;
+}
+textarea {
+    width: 100%;
+    border:1px solid #ccc ;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.labelcon {
+    margin-bottom:6px ;
+    display: block;
+    color: chocolate;
+}
+.btncon {
+    background:chocolate;;
+    width: 100px;
+    border:none;
+    outline: none;
+    color: azure;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+}
+.btncon:hover{
+    background: tomato;
+    color:antiquewhite;
+    padding:4px;
+    font-size:15px;
+}
+.contact-left .h3con {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.trcon .tdcon:first-child{
+    padding-right: 20px;
+}
+.trcon .tdcon {
+    padding:20px;
+}
+.pcon {
+font-family: 'Comic Neue', cursive;
+}
